@@ -31,3 +31,21 @@ console.log(typeof outsideTemp);
 console.log(typeof myfunction);
 console.log(typeof anotherId);
 
+//++++++++++++++++++++++++
+// stack(primitive). ,heap(non primitive)
+let myYoutybe="bharatbist9302gmail.com"
+let anotherYoutube=myYoutybe
+anotherYoutube="BharatBist"
+
+console.log(myYoutybe);
+
+console.log(anotherYoutube)
+
+let userOne={
+    email:"bharjijsd9392@gmail.com",
+    upi:"user@yul"
+}
+let userTwo=userOne
+userTwo.email="hutesjhsdjs@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
